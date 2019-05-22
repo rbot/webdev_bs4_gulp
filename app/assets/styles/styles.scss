@@ -1,110 +1,42 @@
-// COLOR PALETTE - Wire Frame
+// Color Palettes
+// ====================================================
+
+// Wire Frame
 $white: #fff;
 $lighter-grey: #e6e6e6;
 $light-grey: #bfbfbf;
 $grey: #808080;
 $dark-grey: #404040;
 $darker-grey: #202020;
-$rd: red;
 
+
+// Global Styles
+// ====================================================
 body {
-	color: $lighter-grey;
-	background: $red;
-}
-
-.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto
-.bg-color {
-	padding-left: 0;
-	padding-right: 0;
-}
-
-/* NAVBAR */
-.navbar {
-	padding: 0;
-}
-.navbar-brand {
-	background: #111;
-	margin: 0;
-	padding: 0;
-	flex-basis: 25%;
-}
-.navbar-toggler {
-	background: #ddd;
-	border-radius: 0;
-	flex-basis: 25%;
-}
-.navbar-nav {
-	flex-direction: row;
-}
-.nav-item, .navbar-brand, .navbar-toggler {
-	height: 100px;
-}
-.nav-item.flex-fill {
-	flex-basis: 0 !important;
+	background-color: $white;
+	color: $dark-grey;
 }
 
 
-/* CONTENT BOXES */
-.test-box {
-  background: $darker-grey;
-	// position: relative;
-	// padding-bottom: 100%;
-}
-.box-content {
-  background: $dark-grey;
-	// position: absolute;
-  // top: 50%;
-  // transform: translate(0, -50%);
-}
+// Bootstrap Media Query overrides
+// ====================================================
 
-.blue {
-  background: blue;
-}
-
-
-
-
-
-
-
-
-#boxR {
-	background: url('../img/r.png');
-	background-size: contain;
-}
-#boxB {
-	background: url('../img/b.png');
-	background-size: contain;
-}
-
-
-
-
+// Small Devices
 @media (min-width: 576px) {
 
-
 }
 
+// Medium Devices
 @media (min-width: 768px) {
 
-	.navbar-brand {
-		flex-grow: 0;
-		flex-shrink: 0;
-		flex-basis: 50%;
-	}
-
 }
 
+// Large Devices
 @media (min-width: 992px) {
-
-
 	
 }
 
+// Extra Large Devices
 @media (min-width: 1200px) {
-
-	.navbar-brand {
-			flex-basis: 33.3333%;
-	}
 
 }

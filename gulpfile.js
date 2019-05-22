@@ -7,9 +7,11 @@ const gulp = require('gulp'),
 function style() {
   // find scss file
   return gulp.src('./app/assets/styles/*.scss')
-  .pipe(postcss([ autoprefixer() ]))
+  
   // pass through sass compiler
   .pipe(sass().on('error', sass.logError))
+
+  .pipe(postcss([ autoprefixer() ]))
   // save location for compiled CSS
   .pipe(gulp.dest('./app/temp/styles'))
 
