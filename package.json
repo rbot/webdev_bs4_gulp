@@ -2,7 +2,7 @@
   "name": "webdev_bs4_gulp",
   "version": "1.0.0",
   "dependencies": {
-    "caniuse-db": "^1.0.30000969",
+    "caniuse-db": "^1.0.30000971",
     "jquery": "^3.4.1",
     "normalize.css": "^8.0.1"
   },
